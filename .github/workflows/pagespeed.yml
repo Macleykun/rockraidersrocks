@@ -8,7 +8,7 @@ jobs:
   getpsresults:
     env:
       PSURL: https://pagespeed-insights-svg.glitch.me
-      HOST: https://lrr.researchrealm.net
+      HOST: https://rockraiders.rocks
       RESULTSFOLDER: .github/.lighthouse/
     runs-on: ubuntu-latest
     steps:

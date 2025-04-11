@@ -1,4 +1,4 @@
-name: Change lrr.researchrealm.net 2 rockraiders.rocks
+name: Change rockraiders.rocks 2 rockraiders.rocks
 on:
   workflow_dispatch:
 
@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Replace lrr with rocks website everywhere!
       run: |
-          find ./ -type f -exec sed -i -e 's/lrr.researchrealm.net/rockraiders.rocks/g' {} \;
+          find ./ -type f -exec sed -i -e 's/rockraiders.rocks/rockraiders.rocks/g' {} \;
     - name: Commit files
       run: |
         git add .

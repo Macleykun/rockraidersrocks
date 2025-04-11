@@ -25,7 +25,7 @@ jobs:
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:
-          urls: https://lrr.researchrealm.net
+          urls: https://rockraiders.rocks
           budgetPath: '.github/.lighthouse/budget.json' # test performance budgets
           configPath: '.github/.lighthouse/lighthouserc.yml'
           uploadArtifacts: true # save results as an action artifacts
