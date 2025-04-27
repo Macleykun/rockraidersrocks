@@ -2,15 +2,18 @@
 Git repo for the website rockraiders.rocks
 To see the full setup of how the installers were created, see: https://archive.org/download/BRRICS
 
+# Apprication for fixing the Russian Lego Rock Raiders NOCD patch
+We're very greatful for [ioncodes](https://github.com/ioncodes/LRR_RU_NOCD/releases/tag/v2) work to remove the check if an iso is mounted with the volume label: ROCKRAIDERS.
+Previously you would get a .zip file when downloaded from our releases or webpages, which has the .iso to run the game and .exe to install the game. This has now been changed to just include the installer with the patched d3drm.dll file(s). In summary, the d3drm.dll patches out the check and then loads the real d3drm.dll (d3drm_ori.dll).
+A seperate archive for this fix is made [here](https://archive.org/download/nocd-patch-lego-rock-raiders-russian). Again we're sincerely greatful for this patch!
+
 # Help wanted to fix the last language
 
 The Russian LegoRR.exe is the only one that has a bug that upgrading doesn't work. Which makes the unplayable!
 
-This version also requires the iso to be mounted, which is less ideal.
-
 It seems that the issue lies within the LegoRR.exe itself but it's unclear why this happens. This is also the only executable that is able to read the Russian language from the wad files aswell. It isn't protected by SafeDisc however!
 
-You can download the zip with the installer and iso [here](https://github.com/The-Research-Realm/rockraidersrocks/releases/download/1.0/Lego.Rock.Raiders.Russian.zip) (700 MB). We would greatly appricate any help to preserve all the languages in a working order! Do feel free to contact us using the issues or joining the [Discord server](https://discord.com/invite/2cuKpkHvMJ).
+You can download the zip with the installer and iso [here](https://github.com/The-Research-Realm/rockraidersrocks/releases/download/1.0/Lego.Rock.Raiders.Russian.exe) (439 MB). We would greatly appricate any help to preserve all the languages in a working order! Do feel free to contact us using the issues or joining the [Discord server](https://discord.com/invite/2cuKpkHvMJ).
 
 ## Validations
 [HTML valid](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Frockraiders.rocks)
